@@ -1,0 +1,11 @@
+/* Image Insert */
+
+.view-mode-image_insert h2.node-title {
+  display: none;
+}
+
+/* Image Insert View */
+
+.view-mode-image_insert_view h2.node-title {
+  display: none;
+}
