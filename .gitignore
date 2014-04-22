@@ -35,3 +35,7 @@ xmlrpc.php
 /scripts
 /themes
 
+
+# Ignore contributed modules
+
+sites/all/modules/contrib/*
