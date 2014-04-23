@@ -1,5 +1,5 @@
 # Ignore configuration files that may contain sensitive information.
-sites/*/*settings*.php
+sites/*/*settings.php
 
 # Ignore paths that contain generated content.
 files/
@@ -39,3 +39,5 @@ xmlrpc.php
 # Ignore contributed modules
 
 sites/all/modules/contrib/*
+.vim
+.viminfo
