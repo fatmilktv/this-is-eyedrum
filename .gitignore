@@ -2,6 +2,7 @@
 sites/*/*settings.php
 settings.php
 .gitconfig
+.ssh
 
 # Ignore paths that contain generated content.
 files/
