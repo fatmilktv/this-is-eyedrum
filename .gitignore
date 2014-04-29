@@ -1,10 +1,14 @@
 # Ignore configuration files that may contain sensitive information.
-sites/*/*settings*.php
+sites/*/*settings.php
+settings.php
+.gitconfig
+.ssh
 
 # Ignore paths that contain generated content.
 files/
 sites/*/files
 sites/*/private
+public_html/drupal
 
 # Ignore default text files
 robots.txt
@@ -34,4 +38,11 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+tmp*
 
+
+# Ignore contributed modules
+
+sites/all/modules/contrib/*
+.vim
+.viminfo
