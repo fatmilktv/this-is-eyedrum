@@ -1,0 +1,142 @@
+/* This stylesheet is for one off styles that are used in specif settings, like in a particular content type. */
+
+/*
+ * Front Page
+ */
+
+
+body.front #block-views-front-page-events-block {
+  clear: left;
+  background-color: #000;
+  box-shadow: 0 8px 6px -6px #ccc;
+  -webkit-box-shadow: 0 8px 6px -6px #ccc;
+  box-shadow: 0 8px 6px -6px #ccc;
+}
+
+body.front #block-views-front-page-events-block h2 {
+  color: #000;
+  background-color: #fff;
+}
+
+body.front div.view-front-page-events {
+  margin-top: -15px;
+}
+
+body.front div.view-front-page-events a {
+  color: #fff;
+}
+
+body.front div.view-front-page-events a:hover,
+body.front div.view-front-page-events a:active {
+  color: red;
+}
+
+body.front #block-views-front-page-events-block table {
+  width: 100%
+}
+
+body.front #block-views-front-page-events-block tbody {
+  margin-top: -15px;
+}
+
+body.front #block-views-front-page-events-block tr {
+  margin: 10px 0;
+}
+
+body.front #block-views-front-page-events-block .field-content {
+  float: left;
+  padding-right: 20px;
+}
+
+body.front #block-views-front-page-events-block span.views-field-title span.field-content  {
+  width: 65%;
+}
+
+body.front #block-views-front-page-events-block td {
+  padding-top: 7px;
+}
+
+body.front #block-views-front-page-events-block span.views-field-field-date span.field-content {
+  padding: 7px;
+  color: #000;
+  background-color: #fff;
+  margin: 0 20px 0 -1px;
+  font-weight: bold;
+}
+body.front #block-views-front-page-events-block span.views-field-title #fp_events_title {
+  text-decoration: underline;
+}
+
+body.front #block-views-front-page-events-block div.more-link {
+  text-align: left;
+}
+
+/*
+ * Event (Calendar) Page
+ */
+
+.fc-header-title {
+  padding: 0 10px;
+  margin-top: -10px;
+}
+
+table.fc-header {
+  margin-top: 20px;
+}
+
+/* 
+ * Event Content Type 
+ */
+
+body.node-type-event .group-left {
+  width: 73%;
+  padding: 0 1% ;
+}
+body.node-type-event .group-right {
+  width: 23%;
+  padding: 0 1%;
+}
+
+body.node-type-event .group-right .field,
+body.node-type-event .group-left .field {
+  padding-bottom: 10px;
+}
+
+body.node-type-event span.date-display-start,
+body.node-type-event span.date-display-end,
+body.node-type-event span.date-display-single {
+  display: block;
+  clear: right;
+  font-weight: bold;
+}
+
+/*
+ * Blocks
+ */
+
+/* Donate Block */
+#block-block-1 {
+  clear: right;
+}
+
+div.region-highlighted #block-block-1 div.wrapper {
+  height: 60px;
+  font-weight: bold;
+}
+
+div.region-highlighted #block-block-1 div#donate-text {
+  float: left;
+  display: block;
+  padding: 20px;
+}
+
+div.region-highlighted #block-block-1 div#donate-button {
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+div.region-highlighted #block-block-1 div#donate-button img {
+  height: 50px;
+}
+
